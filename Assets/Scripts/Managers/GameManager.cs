@@ -14,7 +14,7 @@ public class GameManager : Singleton<GameManager>
 	private void Awake()
 	{
 		selectedPlatoon = GetComponent<Platoon>();
-		Cursor.lockState = CursorLockMode.Confined;
+		// Cursor.lockState = CursorLockMode.Confined;
 		#if UNITY_EDITOR
 		Application.targetFrameRate = 30; //just to keep things "smooth" during presentations
 		#endif
